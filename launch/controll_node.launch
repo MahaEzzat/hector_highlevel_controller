@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<launch>
+
+<node name="hector_highlevel_controller" pkg="hector_highlevel_controller" type="hector_highlevel_controller" output="screen" >
+<rosparam command="load" file="$(find hector_highlevel_controller)/config/config.yaml" />
+</node>
+
+
+
+</launch>
