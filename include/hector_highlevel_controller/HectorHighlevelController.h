@@ -85,17 +85,15 @@ namespace hector_highlevel_controller
           laser_geometry::LaserProjection projector_;
           tf::TransformListener tf_listener;
     
-		  
-			float ref_angle;
-			float smallest_distance;
-			float piller_x,piller_y,piller_z;
+
+			
 			double roll,yaw,pitch;
 			float roll_dot,yaw_dot,pitch_dot;
 			float vx,vy,vz;
 			float vxi,vyi,vzi;
 			float pos_x,pos_y,pos_z; 
 			float pos_prev_x,pos_prev_y,pos_prev_z;
-			float error_x,error_y,error_z,error;
+			float error_x,error_y,error_z,error=0.6;
 			float error_d_x,error_d_y,error_d_z;
 			float error_i_x,error_i_y,error_i_z;
 			float t,t_prev;
@@ -113,7 +111,7 @@ namespace hector_highlevel_controller
             std::vector< double > pathx;
             std::vector< double > pathy;
 		    std::vector< double > centriod;
-            std::vector< double > rgb;
+            std::vector< char > rgb;
 			  //(centriod #1)(rgb #2)
 
 			
