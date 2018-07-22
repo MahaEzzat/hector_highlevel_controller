@@ -25,4 +25,8 @@ How to run it: <br />
 8.source devel/setup.bash <br /> 
 
 9.roslaunch hector_highlevel_controller controll_node.launch <br /> 
+
+Video link: <br /> 
+
+https://www.youtube.com/watch?v=tv4g_S_aKWE&list=PLsQg1LQa63kDVPgswaw-mNshjz-HAWOF6&index=1 <br /> 
 	
